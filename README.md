@@ -1,3 +1,5 @@
 # Recircle
 
-Kör területszámítás
+Kör területszámítás.
+
+Refaktorálja a forráskódot.

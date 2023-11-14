@@ -1,3 +1,6 @@
+/*
+ * Nagy János, 2023-11-14
+ */
 package lan.zold;
 
 import java.util.Scanner;
@@ -11,10 +14,10 @@ public class Circle {
 
     }
     public String a(String msg) {
-        Scanner sc = new Scanner(System.in);
+        Scanner bata = new Scanner(System.in);
         System.out.print(msg);
-        String line = sc.nextLine();
-        sc.close();
+        String line = bata.nextLine();
+        bata.close();
         return line;
     }
     public double ca(double r) {
